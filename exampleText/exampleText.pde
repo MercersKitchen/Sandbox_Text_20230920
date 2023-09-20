@@ -1,11 +1,20 @@
 //Global Variables
 int appWidth, appHeight;
+String title, footer;
+PFont titleFont, footerFont;
+color purple, resetDefaultInk;
+int sizeFont;
 //
 void setup() {
   //fullScreen(); //displayWidth & displayHeight
   size(500, 600);
   appWidth = width;
   appHeight = height;
+  //
+  // Population ( DIVs or rect() )
+  //
+  // Text Setup
+  //
 } //End setup
 //
 void draw() {
