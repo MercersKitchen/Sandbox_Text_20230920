@@ -42,12 +42,16 @@ void draw() {
   //Text is same size or relative to rect()
   //
   //Drawing Font Code
+  //
+  //CAUTION: review this tomorrow
   fill(purple);
   textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
   //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
   size = 10;
   textFont(titleFont, size);
   text ();
+  //
+  //
   //rect( xTitle, yTitle, widthTitle, heightTitle ); //Title: WAHOO!!
   //rect(  xFooter, yFooter, widthFooter, heightFooter ); //Footer: drip
 } //End draw
