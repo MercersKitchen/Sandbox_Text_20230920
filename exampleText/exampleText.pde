@@ -4,6 +4,7 @@ String title, footer;
 PFont titleFont, footerFont;
 color purple, resetDefaultInk;
 int sizeFont;
+float xTitle, yTitle, widthTitle, heightTitle;
 //
 void setup() {
   //fullScreen(); //displayWidth & displayHeight
@@ -11,7 +12,16 @@ void setup() {
   appWidth = width;
   appHeight = height;
   //
-  // Population ( DIVs or rect() )
+  // Population
+  xTitle = appWidth*1/4;
+  yTitle = appHeight*1/10;
+  widthTitle = appWidth;
+  heightTitle= appHeight*2/10;
+  //
+  // DIVs or rect()
+  // Layout our text space and typographical features
+  //rect( xTitle, yTitle, widthTitle, heightTitle );
+  //rect( xFooter, yFooter, widthFooter, heightFooter );
   //
   // Text Setup
   // Fonts from OS (Operating System)
