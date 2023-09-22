@@ -1,8 +1,8 @@
 //Global Variables
 int appWidth, appHeight;
-String title, footer;
+String title="WAHOO!!", footer="drip";
 PFont titleFont, footerFont;
-color purple=#2C08FF, resetDefaultInk=#FFFFFF;
+color purple=#2C08FF, resetDefaultInk=#FFFFFF, yellow = #E9FF00;
 int sizeFont, size;
 float xTitle, yTitle, widthTitle, heightTitle;
 float xFooter, yFooter, widthFooter, heightFooter;
@@ -44,16 +44,22 @@ void draw() {
   //Drawing Font Code
   //
   //CAUTION: review this tomorrow
-  fill(purple);
+  fill(purple); //ink
   textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
   //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-  size = 10;
+  size = 60;
   textFont(titleFont, size);
-  text ();
+  text ( title, xTitle, yTitle, widthTitle, heightTitle );
+  fill(yellow); //ink
+  textAlign(CENTER, TOP); //Align X&Y, see Processing.org / Reference
+  //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
+  textFont(footerFont, size);
+  text ( footer, xFooter, yFooter, widthFooter, heightFooter );
+  fill(resetDefaultInk); //ink
   //
   //
-  //rect( xTitle, yTitle, widthTitle, heightTitle ); //Title: WAHOO!!
-  //rect(  xFooter, yFooter, widthFooter, heightFooter ); //Footer: drip
+  //rect(  ); //Title: 
+  //rect(   ); //Footer: 
 } //End draw
 //
 void keyPressed() {} // End keyPressed
