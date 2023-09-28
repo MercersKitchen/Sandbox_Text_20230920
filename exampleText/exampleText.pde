@@ -43,7 +43,6 @@ void draw() {
   //
   //Drawing Font Code
   //
-  //CAUTION: review this tomorrow
   fill(purple); //ink
   textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
   //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
