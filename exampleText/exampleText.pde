@@ -25,8 +25,8 @@ void setup() {
   //
   // DIVs or rect()
   // Layout our text space and typographical features
-  rect( xTitle, yTitle, widthTitle, heightTitle );
-  rect( xFooter, yFooter, widthFooter, heightFooter );
+  //rect( xTitle, yTitle, widthTitle, heightTitle );
+  //rect( xFooter, yFooter, widthFooter, heightFooter );
   //
   // Text Setup
   // Fonts from OS (Operating System)
@@ -53,6 +53,7 @@ void draw() {
   fill(yellow); //ink
   textAlign(CENTER, TOP); //Align X&Y, see Processing.org / Reference
   //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
+  size = 120;
   textFont(footerFont, size);
   text ( footer, xFooter, yFooter, widthFooter, heightFooter );
   fill(resetDefaultInk); //ink
