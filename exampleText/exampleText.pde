@@ -1,7 +1,7 @@
 //Global Variables
 int appWidth, appHeight;
 String title="WAHOO!!", footer="drip";
-PFont titleFont, footerFont;
+PFont titleFont, footerFont; //More fonts possible, see createFont()
 color purple=#2C08FF, resetDefaultInk=#FFFFFF, yellow = #E9FF00;
 int sizeFont, size;
 float xTitle, yTitle, widthTitle, heightTitle;
